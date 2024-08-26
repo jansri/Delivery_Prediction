@@ -1,0 +1,10 @@
+snowflake-connector-python
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+flask
+pytest
+mlflow

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: package-delivery-prediction
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: package-delivery-prediction
+  template:
+    metadata:
+      labels:
+        app: package-delivery-prediction
+    spec:
+      containers:
+      - name: package-delivery-prediction
+        image: your-docker-registry/package-delivery-prediction:latest
+        ports:
+        - containerPort: 5001

@@ -1,0 +1,16 @@
+﻿python /Users/jananisrinath/Desktop/Delivery_Prediction/data/extract_data.py
+
+
+python /Users/jananisrinath/Desktop/Delivery_Prediction/data/generate_dataset.py
+
+
+python /Users/jananisrinath/Desktop/Delivery_Prediction/data/preprocess_data.py
+
+
+python /Users/jananisrinath/Desktop/Delivery_Prediction/features/create_features.py
+
+
+python /Users/jananisrinath/Desktop/Delivery_Prediction/model/train_model.py
+
+
+python /Users/jananisrinath/Desktop/Delivery_Prediction/src/app.py
